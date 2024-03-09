@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-url = "https://www.paragonind.com/"
+url = "https://www.amazon.com/"
 
 #by using request we will get the html content
 
@@ -34,4 +34,6 @@ for parent in link.parents:
 sibling = BeautifulSoup("<a><b>text1</b><c>text2</c></a>", 'html.parser')
 #here both b and c tag are child tags
 print(sibling.prettify)
+
+#In this program I have used general tags of bs4 on how to scrap the content of the website 
 
