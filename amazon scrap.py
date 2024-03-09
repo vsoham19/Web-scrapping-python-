@@ -2,6 +2,8 @@ import csv
 import requests
 from bs4 import BeautifulSoup
 
+#Before running the code make sure to install csv, requests and bs4 into your local machine or else you will face compilation error in your programme
+# use (pip install csv) same for requests and bs4
 
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 
