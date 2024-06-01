@@ -1,3 +1,5 @@
+#Using this below tags one can get an idea on how and when to use the tags for scraping the data from the web
+#These are general bs4 tags
 import requests
 from bs4 import BeautifulSoup
 url = "https://www.amazon.com/"
@@ -36,4 +38,5 @@ sibling = BeautifulSoup("<a><b>text1</b><c>text2</c></a>", 'html.parser')
 print(sibling.prettify)
 
 #In this program I have used general tags of bs4 on how to scrap the content of the website 
+
 
