@@ -17,6 +17,7 @@ Contributions to this repository are welcome. If you have any improvements, bug 
 
 PS - This is my first repository and I am a beginner so I am open for your opinions.
 
+Edit - April 23 2025 , I scraped Meesho website to collect the speaker product and price data(ignore the question mark in the excel file ). 
 
 License
 This project is licensed under the MIT License 
